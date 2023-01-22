@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILL SPILL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"></head>
+<body>
+      <center><h1 id="title">BILL SPILL</h1></center> 
+    <div id="bill-spill">
+        <div class="box1">
+            <p class="rsSign3">&#x20b9;</p>
+
+           <h4>Bill</h4>
+           <!-- <p class="rsSign">&#x20b9;</p> -->
+
+
+           <input type="number" id="num" >
+           <p class="percentage1">Select tip %</p>
+
+            <div class="btns">
+             <button onclick="fun1();" id="btn1">5%</button>
+             <button onclick="fun2();" id="btn2">10%</button>
+             <button onclick="fun3();" id="btn3">15%</button>
+             <button onclick="fun4();" id="btn4">25%</button>
+             <button onclick="fun5();" id="btn5">50%</button>
+             <button onclick="fun6();" id="btn6">75%</button>
+            </div>
+
+                       <p class="people">  Number of People</p>
+                       <i class="fa fa-user" id="user"></i>
+<div class="container">
+    <!-- <h1>counter app</h1> -->
+    <button class="peopleCounterBtn" onclick="getPeople('add')">+</button>
+    <h3 id="counter">0</h3>
+    <button class="peopleCounterBtn1" onclick="getPeople('subtract')">-</button>
+
+
+        </div>
+                
+       
+        </div>
+    
+            <div class="box2">
+                <p class="rsSign">&#x20b9;</p>
+                <p class="rsSign2">&#x20b9;</p>
+
+                <div class="tipShow">
+                <span id="percentage"></span>
+            </div>
+            <div class="amtShow">
+
+
+                <span id="mark7"></span>
+            </div>
+            <!-- <div class="amtShow2">
+                <span id="mark"></span>
+            </div> -->
+                
+                <button id="billGenerate" onclick="funTotal()">Bill Generat</button> 
+                <div class="tipAmount">
+                <h2 class="tipAmt">Tip Amount</h2>
+                <span id="count"></span>
+
+                <p>/person</p>
+            </div>
+            <div class="total">
+                <h2>Total Amount</h2>
+                <span id="count2"></span>
+
+                <p>/ person</p>
+            </div>
+
+            </div>
+        </div>
+    
+        
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

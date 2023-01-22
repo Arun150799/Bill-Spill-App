@@ -1,0 +1,307 @@
+body{
+    
+    background-color:#D6BCFF;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#title{
+    color: #9C60FF;
+
+    position: relative;
+    top: 80px;
+    left: 410px;
+}
+#bill-spill{
+    width: 60vw;
+    height: 67vh;
+    background-color: white;
+    position: relative;
+    right: 100px;
+    top: 180px;
+    border-radius: 15px;
+    display: flex;
+
+}
+.box1{
+    width: 28vw;
+    height: 51vh;
+    background-color:white;
+    margin: 2px;
+    position: relative;
+    top:60px ;
+    left: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(0,0,0,.9);
+
+    
+}
+ .rsSign{
+    color:white ;
+    position: relative;
+    top: 52px;
+    left: 316px;
+}
+h4{
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.percentage1{
+    position: relative;
+    top: -19px;
+    margin-left: 90px;
+}
+.container{
+    margin-left: 30px;
+    margin-top: -76px;
+    background-color:#B6ACC3;
+    width: 24vw;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+#user{
+    font-size: 30px;
+    position: relative;
+    top: -35px;
+    left:5px;
+    
+}
+.people{
+    position: relative;
+    top: -32px;
+    left: 41px;
+}
+#count{
+    position: relative;
+    top: 14px;
+    margin-left: 3px;
+    font-size: 15px;
+}
+.set{
+
+    margin-left: 250px;
+    position: relative;
+    bottom: 47px;
+}
+.btn-increase{
+    font-size: 30px;
+
+}
+.btn-reset{
+    font-size: 30px;
+}
+.btn-decrease{
+    font-size: 30px;
+}
+.box2{
+    width: 28vw;
+    height: 51vh;
+    background-color: #9C60FF;
+    margin: 2px;
+    position: relative;
+    top:60px ;
+    left:40px ;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(0,0,0,.9);
+}
+/* .btnIncrease{
+      position: relative;
+      left: 300px;
+      top: 12px;
+
+}
+.btnDecrease{
+   position: relative;
+   left: 330px;
+   bottom: 68px;
+} */
+.peopleCounterBtn{
+    height: 40px;
+    font-size: 25px;
+
+    position: relative;
+    left: 300px;
+
+}
+.peopleCounterBtn1{
+    height: 40px;
+    font-size: 25px;
+
+    position: relative;
+    left: 330px;
+    bottom: 99px;
+}
+
+/* .container{
+    position: relative;
+    left: 290px;
+    /* width: 80px; */
+    /* height: 40px; */
+/* } */ 
+.user{
+    position: relative;
+    top: 20px;
+
+}
+input{
+    position: relative;
+    background-color:#B6ACC3;
+    top: -55px;
+    left: 4px;
+    font-size: 34px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns{
+    width: 300px;
+    position: relative;
+    top: -24px;
+    left: 76px; 
+
+}
+#btn1{
+    background-color: #9C60FF;
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+   font-size: 20px;
+}
+
+#btn2{
+    background-color: #9C60FF;
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+   font-size: 20px;
+}
+#btn3{
+    background-color: #9C60FF;
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+   font-size: 20px;
+}
+#btn4{
+    background-color: #9C60FF;
+    height: 41px;
+    padding: 20px 20px;
+
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 89px;
+   font-size: 20px;
+}
+#btn5{
+    background-color: #9C60FF;
+    height: 41px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+
+    width: 89px;
+   font-size: 20px;
+}
+#btn6{
+    background-color: #9C60FF;
+    height: 41px;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+
+    width: 89px;
+   font-size: 20px;
+}
+#billGenerate{
+    width: 131px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #9C60FF;
+    color: white;
+    font-size: 20px;
+    margin-top: 280px;
+    margin-left: 145px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px rgba(8, 8, 8, 0.9);
+    cursor: pointer;
+}
+
+.tipAmount{
+    position: relative;
+    left: 10px;
+    bottom:327px ;
+    color: white;
+}
+.total{
+    position: relative;
+    left: 10px;
+    bottom:309px ;
+    color: white;
+}
+.tipShow{
+    position: fixed;
+    /* background-color: black; */
+
+    left: 1115px;
+    top: 318px;
+    width:130px;
+    font-size: 20px;
+    color: white;
+}
+.amtShow{
+    width: 130px;
+    /* background-color: black; */
+    color: white;
+    position: fixed;
+    left: 1110px;
+    top: 456px;
+    font-size: 20px;
+
+}
+.rsSign2{
+    position: absolute;
+    left:316px ;
+    bottom: 146px;
+    color:white;
+}
+#counter{
+    position: relative;
+    bottom: 50px;
+    left: 35px;
+    font-size: 20px;
+}
+/* #AmountPer{
+    width: 40px;
+    height: 30px;
+    background-color: black; 
+    color: white;
+} */
+#count2{
+    position: relative;
+    top: 20px;
+    width: 40px;
+    color:white
+}
+.rsSign3{
+    /* background-color:#B6ACC3; */
+    color: black;
+    position: relative;
+    top: 75px;
+    left: -4px;
+}
